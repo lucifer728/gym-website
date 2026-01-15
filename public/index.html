@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Gym Web</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e6d0335a.js" crossorigin="anonymous"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Smart Gym" />
+        <span>Smart Gym</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Gym</a></li>
+        <li><a href="/login.html" class="btn-primary">Join</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Transform Your Body <br />Transform Your Life</h1>
+      <p>State-of-the-art equipment, expert trainers, affordable plans.</p>
+      <a href="login.html" class="btn-primary large">Start Today</a>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-dumbbell"></i>
+          <h3>Strength Training</h3>
+          <p>Modern machines and free weights for every level.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Cardio Zone</h3>
+          <p>Treadmills, bikes, cross-trainers with LED screens.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-users"></i>
+          <h3>Group Classes</h3>
+          <p>Yoga, Zumba, HIIT led by certified trainers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== TRAINER POSTS (PUBLIC) ====== -->
+<section id="public-posts" class="public-posts">
+  <div class="container">
+    <h2>Latest From Our Trainers</h2>
+    <div id="homePosts" class="posts-grid"></div>
+  </div>
+</section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Smart Gym</h2>
+      <p>
+        Founded in 2020, Smart Gym combines cutting-edge technology with
+        personalised fitness coaching. Our mission is to make fitness affordable
+        and accessible while maintaining a premium experience.
+      </p>
+      <ul>
+        <li>✅ 24/7 Access</li>
+        <li>✅ Expert Diet Counselling</li>
+        <li>✅ Smart Workout Tracking</li>
+        <li>✅ Flexible Membership</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>&copy; 2025 Smart Gym Web. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
